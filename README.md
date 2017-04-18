@@ -1,6 +1,8 @@
 # couchcat-converters
 
-Supplemental scripts to convert formats into something that couchcat should ingest. This is to keep the couchcat commands cleaner for one-of licenses or for formats where PHP doesn't have good library support.
+Supplemental scripts to convert vendor metadata formats into something that couchcat should ingest. The main purpose of this is to keep couchcat from getting bogged down with vendor specific formats and quirks.
+
+Code may be PHP, ruby or other depending on what libraries are available for the format.
 
 ## Converters
 
